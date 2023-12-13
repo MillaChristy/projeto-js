@@ -1,0 +1,178 @@
+
+
+body {
+  background-image: url(https://images-cdn.welcomesoftware.com/Zz0zZTliMjQ4MzhlNGExMWViYmJiMjFiZTI2ZWNmN2MzZA==);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  color: black;
+  font-size: 1.1em;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  width: 100%;
+  padding-right: 50%;
+  overflow-x: hidden;
+  margin: 0;
+  line-height: 30px;
+
+}
+
+h1 {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+h2 {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+header {
+  height: 50px;
+  padding: 0 20px;
+
+  background-color: #a83b87;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#menuNavegacao {
+
+  display: flex; 
+  gap: 40px; 
+}
+
+ul, ol {
+  list-style: none;
+}
+
+#menuNavegacao li a {
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+
+  transition: 0.3s;
+}
+
+#menuNavegacao li a:hover {
+  border-bottom: 2px solid #fff;
+}
+
+main {
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+
+section {
+  
+ 
+  margin-bottom: 30px;
+  width: 50%;
+
+  margin: auto;
+
+
+}
+
+
+
+
+button {
+ 
+  height: 36px;
+  
+
+}
+
+#projeto1, #projeto2 {
+  padding: 10px 20px;
+  line-height: auto
+}
+
+#formulario {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+#notas {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+#btnSituacao{
+  
+  
+  width: 300px;
+  
+}
+
+#content {
+
+  
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  padding: 100px;
+  text-align: center;
+
+
+  
+}
+
+#contentCalcMedias {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 100px;
+  text-align: center;
+  gap: 30px;
+}
+
+.article-container {
+  padding: 100px;
+  text-align: center;
+
+}
+
+.nota {
+  
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputCalc {
+  width: 110px;
+  height: 30px;
+  
+}
+
+.buttonCalc {
+  width: 110px;
+  
+  
+}
+
+.resultado {
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.inputNota{
+  width: 80px;
+  height: 36px;
+  
+  
+}
+

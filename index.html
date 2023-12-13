@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/styles.css" />
+    <title>Projeto Final JS</title>
+  </head>
+  <body>
+
+    <header> 
+      <nav>
+          <ul id="menuNavegacao">
+              <li>
+                  <a href="#projeto1">
+                      Calculadora Básica
+                  </a>
+              </li>
+
+              <li>
+                  <a href="#projeto2">
+                      Calculadora de Médias
+                  </a>
+              </li>
+
+          </ul>
+      </nav>
+</header>
+
+
+
+<main>
+            <section> 
+                <article class="article-container">
+
+                    <h2>Modulo Javascript</h2>
+                    <h1><p>Pretalab - Turma 2</p></h1>
+
+                    <img src="./img/js-bird.gif" alt="gif-passarinho">
+
+                
+
+                    <main>
+                      <p>
+                        Este é o projeto de conclusão do módulo de Javascript do
+                        Ciclo Formativo Básico, uma parceria da PretaLab com o Santander. Aqui
+                        tivemos acesso ao conhecimento de lógica com Javascript: variáveis e
+                        constantes, operadores aritméticos e lógicos, estruturas condicionais e
+                        de repetição, manipulação de arrays e manipulação do DOM. Este projetinho tem
+                        como intuito demonstrar através da prática o conhecimento adquirido.
+                      </p>
+                    </main>
+                </article>
+            </section>
+
+            
+
+      <div id="content">
+
+        <section id="projeto1">
+          <h2>Calculadora Básica</h2>
+
+          <input class="inputCalc" id="numero1Soma" type="number" required />
+          <input class="inputCalc" id="numero2Soma" type="number" required />
+          <button class="buttonCalc" onclick="somar()">SOMAR</button>
+          <p class="resultado" id="resultadoSoma">Resultado: </p>
+
+          <input class="inputCalc" id="numero1Sub" type="number" required />
+          <input class="inputCalc" id="numero2Sub" type="number" required />
+          <button class="buttonCalc" onclick="subtrair()">SUBTRAIR</button>
+          <p class="resultado" id="resultadoSub">Resultado: </p>
+
+          <input class="inputCalc" id="numero1Mult" type="number" required />
+          <input class="inputCalc" id="numero2Mult" type="number" required />
+          <button class="buttonCalc" onclick="multiplicar()">MULTIPLICAR</button>
+          <p class="resultado" id="resultadoMult">Resultado: </p>
+
+          <input class="inputCalc" id="numero1Div" type="number" required />
+          <input class="inputCalc" id="numero2Div" type="number" required />
+          <button class="buttonCalc" onclick="dividir()">DIVIDIR</button>
+          <p class="resultado" id="resultadoDiv">Resultado: </p>
+        </section>
+
+        <div><p id="contentCalcMedias">
+        <section id="projeto2">
+          <h2>Calculadora de Médias</h2>
+            
+            <div id="notas">
+              <div class="nota">
+                <label for="nota1">Nota 1</label>
+                <input class="inputNota" id="nota1" type="number" required />
+                <p class="calcularMedia" id="nota1"></p>
+              </div>
+
+              <div class="nota">
+                <label for="nota2">Nota 2</label>
+                <input class="inputNota" id="nota2" type="number" required />
+                <p class="calcularMedia" id="nota2"></p>
+              </div>
+
+              <div class="nota">
+                <label for="nota3">Nota 3</label>
+                <input class="inputNota" id="nota3" type="number" required />
+                <p class="calcularMedia" id="nota3"></p>
+              </div>
+
+              <div class="nota">
+                <label for="nota4">Nota 4</label>
+                <input class="inputNota" id="nota4" type="number" required />
+                <p class="calcularMedia" id="nota4"></p>
+              </div>
+              </div>
+
+            <div>
+               
+              <button id="btnSituacao" onclick="calcularMedia()">
+                Qual a situação da estudante?
+              </button>
+            
+              <p class="nota" id="resultado"></p> 
+            
+              </div>
+
+        
+
+          </div>
+        </section>
+      </div>
+    </main>
+
+   
+
+    <script type="text/javascript" src="/js/calculadora.js"></script>
+    <script type="text/javascript" src="/js/media.js"></script>
+  </body>
+</html>
